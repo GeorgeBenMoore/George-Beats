@@ -23,19 +23,7 @@ class fun(commands.Cog):
     await ctx.send("You rolled a " + str(rand))
 
   
-  @commands.command()
-  async def milkme(self, ctx):
-    await ctx.send("yes daddy")
-  
-  
 
-  @commands.command()
-  async def ligma(self, ctx):
-    await ctx.send("ligma balls")
-  
-  @commands.command()
-  async def jensen(self, ctx):
-    await ctx.send("sugs nuts")
 
   
   #Return time in New Zealand
@@ -53,7 +41,7 @@ class fun(commands.Cog):
     num3 = random.randint(0, 4)
     await ctx.send(emojis[num1]+emojis[num2]+emojis[num3])
     if (num1+num2+num3==0):
-      await ctx.send("Holy shit u got 3 diamonds!")
+      await ctx.send("You got 3 diamonds!")
     elif (num1==1 and num2==1 and num3==1):
       await ctx.send("3 cherries nice balls.")
     elif (num1==2 and num2==2 and num3==2):
@@ -61,7 +49,7 @@ class fun(commands.Cog):
     elif (num1==3 and num2==3 and num3==3):
       await ctx.send("3 Diamonds would have been better.")
     elif (num1==4 and num2==4 and num3==4):
-      await ctx.send("LMAO megashit moment xd")
+      await ctx.send("LMAO")
     else:
       await ctx.send("You suck try again.")
   

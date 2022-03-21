@@ -43,7 +43,7 @@ class music(commands.Cog):
   @commands.command()
   async def disconnect(self,ctx):
     await ctx.voice_client.disconnect()
-    await ctx.send("Fuck you")
+    await ctx.send("ok then..")
 
 
   @commands.command()
